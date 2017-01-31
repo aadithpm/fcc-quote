@@ -15,6 +15,9 @@ function doQuote()
         var quote=JSON.parse(reply);
         $("#quote-text").text(quote.quote);
         $("#author-name").text(quote.author);
+        $(".text-box-inner").animate({
+          opacity:1
+        },600);
       }
 });
 }
@@ -35,9 +38,6 @@ $("footer button")
     $(".text-box-inner").animate(
     {
       "opacity":0
-    },600)
-    .delay(700).animate({
-      "opacity":1
     },600);
     
     doQuote();
