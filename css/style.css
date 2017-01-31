@@ -13,92 +13,128 @@ mixin border-set($size)
   
 }
 */
-body {
-  background-color: #009688;
+body
+{
+    background-color: #009688;
 }
 
-.text-box-main {
-  border: 2px solid #E0F2F1;
-  border-radius: 5px;
-  margin-left: 50%;
-  margin-top: 10%;
-  transform: translate(-50%, -50%);
-  padding: 15px;
+.text-box-main
+{
+    margin-top: 10%;
+    margin-left: 50%;
+    padding: 15px;
+
+    transform: translate(-50%, -50%);
+
+    border: 2px solid #e0f2f1;
+    border-radius: 5px;
 }
 
-.text-box-inner {
-  background-color: #E0F2F1;
-  margin: -10px;
-  padding: 15px;
+.text-box-inner
+{
+    margin: -10px;
+    padding: 15px;
+
+    background-color: #e0f2f1;
 }
 
-.text, .text-content, .text-title {
-  color: #37474F;
-  text-align: center;
-  font-size: 1.2rem;
+.text,
+.text-content,
+.text-title
+{
+    font-size: 1.2rem;
+
+    text-align: center;
+
+    color: #37474f;
 }
 
-.text-content {
-  font-family: "Quattrocento", serif;
+.text-content
+{
+    font-family: 'Quattrocento', serif;
 }
 
-.text-title {
-  margin-top: 10px;
-  font-family: "Fanwood Text", serif;
-  font-style: oblique;
-  font-variant: small-caps;
-  letter-spacing: 2px;
+.text-title
+{
+    font-family: 'Fanwood Text', serif;
+    font-style: oblique;
+    font-variant: small-caps;
+
+    margin-top: 10px;
+
+    letter-spacing: 2px;
 }
 
-.fa-quote-left, .fa-quote-right {
-  font-size: 0.6em;
+.fa-quote-left,
+.fa-quote-right
+{
+    font-size: .6em;
 }
 
-.buttons {
-  width: 100%;
-  text-align: center;
+.buttons
+{
+    width: 100%;
+
+    text-align: center;
 }
-.buttons button {
-  border: 2px solid #E0F2F1;
-  border-radius: 75%;
-  background: none;
-  padding: 10px;
+.buttons button
+{
+    padding: 10px;
+
+    border: 2px solid #e0f2f1;
+    border-radius: 75%;
+    background: none;
 }
-.buttons button .fa {
-  color: #E0F2F1;
+.buttons button .fa
+{
+    color: #e0f2f1;
 }
-.buttons button:hover {
-  background: #E0F2F1;
+.buttons button:hover
+{
+    background: #e0f2f1;
 }
-.buttons button:hover .fa {
-  color: #009688;
+.buttons button:hover .fa
+{
+    color: #009688;
 }
 
-.new-button, .tweet-button {
-  display: inline-block;
-  padding: 10px;
+.new-button,
+.tweet-button
+{
+    display: inline-block;
+
+    padding: 10px;
 }
 
-footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #00796B;
+footer
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background-color: #00796b;
 }
-footer button {
-  border: none;
-  background: none;
+footer button
+{
+    border: none;
+    background: none;
 }
-footer button .fa {
-  padding-top: 5px;
-  color: #E0F2F1;
+footer button .fa
+{
+    padding-top: 5px;
+
+    color: #e0f2f1;
 }
-footer p {
-  font-family: "Quattrocento", serif;
-  color: #80CBC4;
-  padding-top: 10px;
-  padding-right: 15px;
-  float: right;
-  display: inline-block;
+footer p
+{
+    font-family: 'Quattrocento', serif;
+
+    display: inline-block;
+    float: right;
+
+    padding-top: 10px;
+    padding-right: 15px;
+
+    color: #80cbc4;
 }
